@@ -50,7 +50,7 @@ Locate angular-sample-nginx folder.
 Build and run
 ```
 docker build . -t heroesnginx
-docker run -p 8080:80 heroesnginx
+docker run -p 8082:80 heroesnginx
 ```
 
 
@@ -62,6 +62,6 @@ Run
 ```
 docker run \
 -v ${PWD}/heroes/dist:/usr/share/nginx/html \
--p 8082:80 \
+-p 8083:80 \
 nginx
 ```
